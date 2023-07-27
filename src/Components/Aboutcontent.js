@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import './Aboutcontent.css'
 import React from 'react'
-import logo4 from './html.avif'
-import logo5 from './logo5.avif'
+import logo4 from './html.png'
+import logo5 from './logo4.jpg'
 
 
 const Aboutcontent = () => {
@@ -22,10 +22,10 @@ Im a web-page devloper.
     <div className='right'>
     <div className='img-container'>
     <div className='image-stack top'>
-<img src={logo4} alt='true' className='img'/>
+<img src={logo5} alt='true' className='img'/>
 </div>
 <div className='image-stack bottom'>
-<img src={logo5} className="img"alt='true'/>
+<img src={logo4} className="img"alt='true'/>
 </div>
 
     </div>

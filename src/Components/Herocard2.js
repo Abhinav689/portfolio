@@ -1,6 +1,6 @@
 import React from 'react'
 import logo6 from './school.jpg'
-import logo7 from './college.avif'
+import logo7 from './college.jpg'
 import logo8 from './btech.jpg'
 import './Herocard2.css'
 
@@ -11,7 +11,7 @@ const Herocard2 = () => {
  <div className='project-container'>
         <div className='project-card'>
 <img src={logo6} alt='true' />
-<h2 className='project-title'>School(2010-2018)</h2>
+<h2 className='project-title'>D.A.V Public School (2010-2018)</h2>
 <div className='pro-details'>
     <p>Got Overall percentage 87% in 10th board exam.</p>
     <p>I have managed my Academics with and learned many other Extra-Circular activities Such as:</p>
@@ -31,13 +31,16 @@ const Herocard2 = () => {
         </div>
          <div className='project-card'>
 <img src={logo7} alt='true' />
-<h2 className='project-title'>Intermediate (2018-2020)</h2>
+<h2 className='project-title'>Sri Chaitanya Junior College-Intermediate (2018-2020)</h2>
 <div className='pro-details'>
     <p>Graduated with percentage of 94.7% in Intermediate 2nd year</p>
     <div className='tab'>
     <ul>
         <li>Qualified JEE-MAINS with 95.7 percentile</li>
         <li>Qualified EAMCET with 6721 Rank</li>
+        <li>Attended many Hackathons </li>
+        <li>Have a Good knowledge in Mathematics</li>
+        <li>Instrested and performed Many chemistry Lab experiments</li>
      
     </ul>
     </div>

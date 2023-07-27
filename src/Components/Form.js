@@ -1,6 +1,7 @@
 import './Form.css'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 
 const Form = () => {
@@ -9,12 +10,18 @@ const Form = () => {
 
     const sendEmail = (e) => {
       e.preventDefault();
-  
+      
       emailjs.sendForm('service_w5yc41m', 'template_7c8gtie', form.current, 'ZTetKz5UKuuA_C8xJ')
         .then((result) => {
             console.log(result.text);
-            console.log("Mail sent Successfully")
-        }, (error) => {
+            Swal.fire({
+                icon: 'success',
+                title: 'Mail Sent Succesfully',
+                text:'Thank You',
+              })
+
+                 }, 
+                  (error) => {
             console.log(error.text);
         });
     };
@@ -26,7 +33,7 @@ const Form = () => {
     <input type="email" name="Email" />
     <label>Message</label>
     <textarea rows="6" name="message" />
-    <input type="submit" value="Send" className='btn' />
+    < button type="submit" value="Send" className='btn'>Submit</button>
   </form>
       
    
