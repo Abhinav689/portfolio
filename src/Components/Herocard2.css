@@ -27,8 +27,8 @@
     }
     .pro-details{
     
-        padding-bottom: 1rem;
-        font-size: 1rem;
+        padding-bottom: 0.5rem;
+        font-size: 2rem;
         text-align: justify;
     }
     .tab li{
@@ -41,8 +41,17 @@
 
         color: white;
         padding: 2rem;
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
+    .tab ol{
+
+        padding: 1.5rem;
+}
+.tab2 ol{
+
+    padding: 1.5rem;
+}
+
     
 
 
@@ -67,18 +76,28 @@
     
     
     }
+     .tab ol{
+
+              padding: 0.75rem;
+     }
     .tab li{
 
         color: white;
-        padding: 1.5rem;
+        padding: 0.75rem 0rem;
         font-size: 1rem;
     }
     .tab2 li{
 
         color: white;
-        padding: 1.5rem;
+        padding: 0.5rem;
         font-size: 1rem;
     }
+    .tab2 ol{
+
+        padding: 1.5rem;
+}
+    
+
 
 
 
